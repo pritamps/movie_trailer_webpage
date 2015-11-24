@@ -4,6 +4,8 @@ class OmdbTitle:
     """
     Class to wrap data from the OMDB API, which is an Open IMDB wrapper that
     gives access to IMDb data
+
+    Details on the OMDB API can be found here: http://www.omdbapi.com/
     """
     OMDB_BASE_URL = "http://www.omdbapi.com/?i="
     OMDB_URL_SUFFIX = "&plot=short&r=json"
